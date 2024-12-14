@@ -10,6 +10,14 @@ const {
   initializeConnection,
 } = require('./timeularapi');
 
+const {
+  startTimer,
+  stopTimer
+} = require('./timetracker');
+
+let currentPosition = null;
+let startDate = null;
+
 // Asynchronous Immediately Invoked Function Expression (IIFE)
 (async () => {
   try {
@@ -22,6 +30,18 @@ const {
     await initializeConnection((newPosition) => {
       // Logs the new position received to the console.
       console.log("Parent received new position:", newPosition);
+        if(currentPosition == null) {
+          currentPosition = newPosition;
+          console.log("Starting Timer Current Position: ", currentPosition);
+          startDate = startTimer(currentPosition);
+        }else{
+          console.log("Stopping Timer Current Position: ", currentPosition);
+          const { hours, minutes, seconds } = stopTimer(startDate, currentPosition);
+          console.log("Duration: ", hours, minutes, seconds) ;
+          currentPosition = newPosition;
+          console.log("Starting Timer Current Position: ", currentPosition);
+          startDate = startTimer(currentPosition);
+        }
     });
 
   } catch (error) {

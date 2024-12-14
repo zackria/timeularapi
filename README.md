@@ -42,12 +42,15 @@ It provides a simple API to connect to a Timeular device and receive position up
 
 ### Library used
 [https://www.npmjs.com/package/@abandonware/noble](https://www.npmjs.com/package/@abandonware/noble)
+[https://www.npmjs.com/package/moment](https://www.npmjs.com/package/moment)
 
 #### Initial Setup if you are building ground up
 
 `npm init`
 
 `npm install @abandonware/noble`
+
+`npm install @moment`
 
 
 #### If you still face issues, ensure you have the necessary tools to compile native bindings:
