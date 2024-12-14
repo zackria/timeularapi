@@ -7,8 +7,9 @@ This utility is designed to interface with Timeular Tracker devices via Bluetoot
 It provides a simple API to connect to a Timeular device and receive position updates in real-time.
 
 ### Timeular Resources
-Timeular [https://timeular.com/](https://timeular.com/)
-Timeular API [https://developers.timeular.com/](https://developers.timeular.com/)
+- Timeular [https://timeular.com/](https://timeular.com/)
+
+- Timeular API [https://developers.timeular.com/](https://developers.timeular.com/)
 
 ### The timeularapi repository is designed to interface with Timeular devices using the following technologies:
 - Node.js: The primary runtime environment for executing JavaScript code server-side.
