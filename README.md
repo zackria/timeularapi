@@ -1,5 +1,10 @@
 # Timeular Node.js Electron App
 
+### The timeularapi repository is designed to interface with Timeular devices using the following technologies:
+- Node.js: The primary runtime environment for executing JavaScript code server-side.
+- `@abandonware/noble`: A Node.js library that enables communication with Bluetooth Low Energy (BLE) devices.
+- Electron: Utilized for building cross-platform desktop applications with web technologies.
+
 ### Getting Started
 
 - Step 1: Checkout the code
@@ -11,7 +16,6 @@
 
 `node index.js`
 
-
 ### Runnning the via npm
 
 `node start`
@@ -20,7 +24,6 @@
 [timeularapi.md](./timeularapi.md)
 
 ### Sample client code documentation
-
 [index.md](./index.md)
 
 ### Library used
