@@ -30,6 +30,9 @@ Timeular API [https://developers.timeular.com/](https://developers.timeular.com/
 
 `node start`
 
+![alt text](./images/sampleoutput.png "Title")
+
+
 ### API Documentation
 [timeularapi.md](./timeularapi.md)
 
