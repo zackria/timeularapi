@@ -133,4 +133,10 @@ This would connect to a Timeular device, read its initial position, and log upda
 
 # Feel free to enhance or update or ask for further clarification!
 
+Help us bring this project to the moon! TimeularAPI's rocket needs to get somewhere, right?
+- Contribute! I'll be happy to accept pull requests!
+- Bug hunting! [Report](https://github.com/zackria/timeularapi/issues) them! 
+- Feature request? Please let me know by filling an [issue](https://github.com/zackria/timeularapi/issues)!
+- Star this project on [Github](https://github.com/zackria/timeularapi)
+
 ---
