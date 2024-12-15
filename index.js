@@ -37,7 +37,7 @@ let startDate = null;
         }else{
           console.log("Stopping Timer Current Position: ", currentPosition);
           const { hours, minutes, seconds } = stopTimer(startDate, currentPosition);
-          console.log("Duration: ", hours, minutes, seconds) ;
+          console.log("Duration: ", hours, "hours", minutes, "minutes", seconds, "seconds") ;
           currentPosition = newPosition;
           console.log("Starting Timer Current Position: ", currentPosition);
           startDate = startTimer(currentPosition);
