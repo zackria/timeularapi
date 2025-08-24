@@ -6,6 +6,8 @@ Track 1000 different activities by simply flipping the 8-sided, physical time tr
 This utility is designed to interface with Timeular Tracker devices via Bluetooth.
 It provides a simple API to connect to a Timeular device and receive position updates in real-time.
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=zackria_timeularapi&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=zackria_timeularapi)  [![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=zackria_timeularapi)
+
 ### Timeular Resources
 - Timeular [https://timeular.com/](https://timeular.com/)
 
